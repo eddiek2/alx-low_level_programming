@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * argstostr - concatenating all argument of this program
- * @ac: entry of argument
- * @av: entry of this arguement
- * Return: new string, else Null when t has to fail
+ * argstostr - connect all the arguments of the program
+ * @ac: enter argument
+ * @av: entry arguement
+ * Return: pointer to new string, or NULL if fail
  */
 
 char *argstostr(int ac, char **av)
